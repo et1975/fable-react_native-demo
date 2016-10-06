@@ -52,15 +52,19 @@
     <Compile Include="../node_modules/fable-import-fetch/Fable.Helpers.Fetch.fs" />
     <Compile Include="../node_modules/fable-elmish/elmish.fs" />
     <Compile Include="../node_modules/fable-elmish/elmish-promise.fs" />
-    <Compile Include="Model.fs" />
-    <Compile Include="Database.fs" />
     <Compile Include="Styles.fs" />
-    <Compile Include="Messages.fs" />
-    <Compile Include="Scenes/CheckLocation.fs" />
-    <Compile Include="Scenes/LocationList.fs" />
-    <Compile Include="Scenes/Home.fs" />
-    <Compile Include="Scenes/App.fs" />
-    <Compile Include="Nightwatch.fs" />
+    <Compile Include="Locations/LocationCheck/Types.fs" />
+    <Compile Include="Locations/LocationCheck/Scene.fs" />
+    <Compile Include="Locations/LocationCheck/State.fs" />
+    <Compile Include="Locations/Types.fs" />
+    <Compile Include="Locations/Scene.fs" />
+    <Compile Include="Locations/State.fs" />
+    <Compile Include="Home/Types.fs" />
+    <Compile Include="Home/Scene.fs" />
+    <Compile Include="Home/State.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="State.fs" />
+    <Compile Include="App.fs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Choose>
